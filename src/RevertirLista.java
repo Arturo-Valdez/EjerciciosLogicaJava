@@ -22,6 +22,7 @@ public class RevertirLista {
         valores.forEach(System.out::println);
 
         for (int i = 0; i < valores.toArray().length; i++) {
+            //Colocar valores al inicio de todos los valores en nueva lista
             valoresInvertidos.add(0, valores.get(i));
 
         }
